@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         counterView.setText(counter.toString());
 
     }
+
     protected void onSaveInstanceState(Bundle outState){
         super.onSaveInstanceState(outState);
         outState.putInt("counter", counter);
